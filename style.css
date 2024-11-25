@@ -33,8 +33,11 @@ h1,
   }
 
 #donate-button {
-  background-color: var(--fcc-primary-color) !important;
+  background: none !imortant;
+    background-image:none !important;
+    background-color: var(--fcc-primary-color) !important;
   color: white !important;
+    
 }
 
   #page-teasers .title {
