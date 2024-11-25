@@ -1,0 +1,235 @@
+:root {
+    --font-family: neue-haas-grotesk-display, "Helvetica Neue", sans-serif;
+    --font-size: inherit;
+    --blue-light: #b2e3f7;
+    --blue-default: #0378ab;
+  --red: #d3185d; 
+}
+
+h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+      font-family: "Comic Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: 700;
+  }
+.box {
+  border-radius: 0px;
+    -moz-border-radius: 0px;
+  border: none;
+    -webkit-border-radius: 0px;
+    background:none  !important;
+  max-width:660px !important;
+  margin-inline: auto !important;
+  width:100%;
+  padding-inline:30px !important;
+}
+.box-inner {
+  width:100%;
+  max-width:660px;
+  margin-inline: auto;
+  border-color: transparent !important;
+    border-style: none;
+    border-width: 0px;
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    padding: 16px !important;
+}
+
+* {
+  box-sizing: border-box;
+    font-family: var(--font-family)
+}
+
+  p,
+  label {
+      font-size: 120%;
+  }
+
+
+#donate-button {
+  background: none !imortant;
+    background-image:none !important;
+    background-color: var(--blue-default) !important;
+  color: white !important;
+  border:none;
+  border-radius: 9999px !important;
+  text-shadow: none;
+    box-shadow: none;
+  font-size:24px;
+  font-weigth:700;
+}
+
+#project-name {
+  font-size:32px;
+}
+
+  #page-teasers .title {
+      font-weight: 700;
+  }
+
+  /*.container-fluid {
+    max-width: 960px !important;
+  }*/
+
+  h4 {
+      border-bottom: 0 none;
+      color: #162e65;
+      font-weight: 600;
+  }
+.progressbar-text-shadow {display:none;}
+.progressbar {
+    background-image:none !important;
+  background:none !important;
+    background-color: var(--blue-light) !important;
+}
+.progressbar-done {
+background: none;
+  background-image: none;
+  background-color: var(--red)
+}
+
+.progressbar-done, .progressbar {
+width:100%;
+max-width:100%;
+}
+
+.progressbar {
+  overflow:hidden;
+  border-radius:9999px;
+}
+
+#donation-goal {
+font-size:20px;
+}
+
+  /* headline */
+  .panel-default>.panel-heading {
+      color: #000000;
+      background-color: transparent;
+      border-color: transparent;
+  }
+
+  .panel-heading {
+      padding: 10px 0;
+      border-bottom: 0 none !important;
+      border-top-right-radius: 0;
+      border-top-left-radius: 0;
+  }
+
+  .panel-title {
+      font-size: 24px;
+      line-height: 50px;
+      color: #162e65;
+  }
+
+  .panel-body {
+      padding-left: 0;
+      padding-right: 0;
+  }
+
+  h3>.glyphicon {
+      display: none;
+  }
+
+  /* panel box */
+
+  .panel-default {
+      border-color: transparent;
+  }
+
+  /* progress bar 
+  .progress, #donation-goal, #project-name {display:none}
+  */
+
+  /* submit button */
+  .btn-success {
+      background-color: #d3185d !important;
+      border-color: #d3185d !important;
+      color: #ffffff;
+      display: inline-block;
+      position: relative;
+      border: 0;
+      white-space: nowrap;
+      border-radius: 30px;
+      padding: 14px 30px 13px;
+      font-weight: 600;
+      transition: all 0.3s ease;
+  }
+
+  .btn-success:hover {
+      background-color: #162e65 !important;
+      color: #ffffff;
+  }
+
+  .btn-success,
+  #donorName>.col-md-2,
+  .col-md-5 {
+      width: 100% !important;
+  }
+
+  #showCompanyNameRow>a,
+  #hideCompanyNameRow>a {
+      font-size: 15px;
+      line-height: 17px;
+      color: #162e65;
+      font-weight: normal;
+      display: inline-block;
+      margin-bottom: 20px;
+      transition: all 0.3s ease;
+      text-decoration: underline;
+  }
+
+  #showCompanyNameRow>a:hover {
+      text-decoration: none !important;
+  }
+
+  .glyphicon-plus-sign {
+      display: none !important;
+  }
+
+  /* placeholder */
+
+  input::-webkit-input-placeholder {
+      color: #162e65 !important;
+  }
+
+  input::-moz-placeholder {
+      color: #162e65 !important;
+  }
+
+  input:-ms-input-placeholder {
+      color: #162e65 !important;
+  }
+
+  input:-moz-placeholder {
+      color: #162e65 !important;
+  }
+
+  @media screen and (max-width: 768px) {
+      #fbPaymentForm {
+          margin-left: 20px;
+          margin-right: 20px;
+      }
+
+      /** form element styles **/
+
+      .panel-title {
+          font-size: 26px;
+          line-height: 31px;
+      }
+
+      /* submit button */
+      #submitForm {
+          padding: 12px 20px 14px;
+          font-size: 15px;
+          line-height: 18px;
+      }
+
+      .btn-success {
+          padding: 12px 20px 14px;
+      }
+
+  }
