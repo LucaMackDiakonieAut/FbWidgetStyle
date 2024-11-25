@@ -32,6 +32,10 @@ h1,
       font-size: 120%;
   }
 
+#donation-goal {
+font-size:100px !important   
+}
+
 #donate-button {
   background: none !imortant;
     background-image:none !important;
