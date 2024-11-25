@@ -99,7 +99,6 @@ max-width:100%;
 .progressbar {
   overflow:hidden;
   border-radius: 7px;
-  border: 2px solid rgba(0,0,0,0.2)
 }
 
 #donation-goal {
