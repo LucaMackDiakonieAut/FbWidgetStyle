@@ -64,7 +64,7 @@ display:none !important;
 }
 
 #project-name {
-  font-size:clamp(1rem, 10vw, 2rem);
+  font-size:clamp(1rem, 8vw, 1.5rem) !important;
 }
 
   #page-teasers .title {
